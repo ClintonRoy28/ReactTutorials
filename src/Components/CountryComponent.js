@@ -26,7 +26,7 @@ export default class CountryComponent extends Component {
     }
 
     render() {
-        const { countryNames , loading } = this.state;
+        const { countryNames, loading } = this.state;
 
         return (loading) ?
             <div>Loading...Please wait...</div> :
